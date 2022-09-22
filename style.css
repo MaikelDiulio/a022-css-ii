@@ -1,24 +1,57 @@
+body{
+  background-image: linear-gradient(rgb(54, 54, 54), rgb(151, 151, 151), rgb(189, 186, 186), white) ;
+}
+
+
 header{
+  text-align: center;
     border-bottom: 1px solid black;
   }
   
   main{
+  
+    margin: 0 auto;
     width: 800px;
+    height: 800px;
+    /* position: relative; */
   }
+
   
   aside{
-    width: 180px;
+   
+    text-align: center;
+   border-radius: 18px;
+    position: absolute;
+     /* bottom: 5vh;  */
+    right:  0;
     border: 1px solid black;
+    
+  }
+
+  aside:active{
+    background-color: black;
+    color: white;
   }
   
   footer{
+    position: sticky;
+    bottom: 0;
     background-color: black;
     color: white;
     width: 100%;
   }
   
   button{
+    background-image: linear-gradient(rgb(195, 194, 194),gray,black);
     background-color: black;
     color: white;
     font-family: serif;
   }
+
+  button:active{
+    background-color:white;
+    color: black;
+  }
+   
+  
+  
